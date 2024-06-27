@@ -1,9 +1,8 @@
 export const metadata = {
-    title: 'Wedding Planner',
-  }
-
+  title: "Checklist"
+}
   export default function Layout({children}) {
-    return <section className="mt-7 md:max-w-[90vw] m-auto grid grid-cols-[auto_1fr]">
+    return <section className="mt-7 md:max-w-[90vw] m-auto grid grid-cols-[18rem_1fr]">
     {/* Aside */}
         <aside className="bg-pink-200">Filter</aside>
         {/* Checklist */}

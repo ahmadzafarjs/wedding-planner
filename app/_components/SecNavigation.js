@@ -5,7 +5,7 @@ import { MdOutlinePeopleAlt } from "react-icons/md";
 import { SlCalculator } from "react-icons/sl";
 
 
-const style = "flex flex-col items-center justify-center gap-1 px-3 py-3 border-b-2 border-pink-400 hover:text-pink-500 ";
+const style = "flex flex-col items-center justify-center gap-1 px-3 py-3  border-pink-400 hover:text-pink-500 ";
 
 export default function SecNavigation() {
     return <nav className=" flex items-center justify-center gap-8 shadow-md">
