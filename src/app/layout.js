@@ -1,4 +1,4 @@
-import "@/app/_styles/globals.css";
+import "@/src/app/_styles/globals.css";
 import Navigation from "./_components/Navigation"
 import SecNavigation from "./_components/SecNavigation";
 import {Poppins} from "next/font/google"
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <SecNavigation />
       <main>
       {children}
-      </main>
+      </main> 
       </body>
     </html>
   )
