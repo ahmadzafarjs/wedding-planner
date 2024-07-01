@@ -3,6 +3,7 @@ import Navigation from "./_components/Navigation"
 import SecNavigation from "./_components/SecNavigation";
 import {Poppins} from "next/font/google"
 
+
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -17,6 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    
       <body className={`${poppins.className}`}>
       <Navigation />
       <SecNavigation />

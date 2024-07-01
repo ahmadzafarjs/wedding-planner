@@ -18,7 +18,7 @@ const TaskSchema = new Schema({
 
 const CategorySchema = new Schema({
     name: { type: String, required: true },
-    color: String,
+    icon: String,
     expenses: [ExpenseSchema],
     tasks: [TaskSchema],
     // user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },

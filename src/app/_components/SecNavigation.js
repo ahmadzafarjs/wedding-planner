@@ -21,7 +21,7 @@ export default function SecNavigation() {
             <span><MdOutlinePeopleAlt className="text-3xl text-slate-600" /></span>
             <p>Guest list</p>
         </Link>
-        <Link href="" className={`${style}`}>
+        <Link href="/budget" className={`${style}`}>
             <span><SlCalculator className="text-3xl text-slate-600" /></span>
             <p>Budget</p>
         </Link>
